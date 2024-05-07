@@ -30,38 +30,6 @@ public class Prestador extends Persistente {
     private TipoDocumento tipoDocumento;
 
     @Column(name = "fotoPerfil")
-    private String fpackage proservices.actores;
-
-import lombok.Getter;
-import lombok.Setter;
-import proservices.Persistente;
-import proservices.actores.reputaciones.Reputacion;
-import proservices.actores.reputaciones.ReputacionBuena;
-
-import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
-@Entity
-@Table(name = "prestador")
-@Setter
-@Getter
-public class Prestador extends Persistente {
-    @Column(name = "nombre")
-    private String nombre;
-
-    @Column(name = "apellido")
-    private String apellido;
-
-    @Column(name = "nroDocumento")
-    private String nroDocumento;
-
-    @Enumerated(EnumType.STRING)
-    @Column(name = "tipoDocumento")
-    private TipoDocumento tipoDocumento;
-
-    @Column(name = "fotoPerfil")
     private String foto;
 
     @Column(name = "cuitCuil")

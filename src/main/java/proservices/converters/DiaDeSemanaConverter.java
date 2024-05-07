@@ -1,9 +1,6 @@
 package proservices.converters;
 
 import javax.persistence.AttributeConverter;
-import javax.persistence.Converter;package proservices.converters;
-
-import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 import java.time.DayOfWeek;
 
